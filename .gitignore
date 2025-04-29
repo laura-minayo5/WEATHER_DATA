@@ -1,0 +1,13 @@
+# Environment variables
+.env 
+fernet_key.py
+setup.py
+# Airflow
+airflow.cfg
+
+# Virtual Environment
+venv/
+
+# logs
+__pycache__
+weather_data.egg-info/
