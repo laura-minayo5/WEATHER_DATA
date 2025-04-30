@@ -64,7 +64,7 @@ def etl_process():
             sys.path.append(path)
     # Verify that the paths have been added to sys.path
     print("sys.path:", sys.path)
-
+    
     spark = None
     try:
         spark = create_spark_session()
